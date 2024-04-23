@@ -66,7 +66,7 @@ body {
 }
 .page-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .nav-menu {
   font-weight: 500;
@@ -88,7 +88,7 @@ body {
 }
 .list-contact {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .nav-contact {
   font-size: 16px;
@@ -146,6 +146,8 @@ body {
   display: block;
   min-width: 169px;
   border-radius: 4px;
+  height: 56px;
+  border: none;
 }
 .button:hover,
 :focus {
