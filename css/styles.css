@@ -169,6 +169,16 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.our-advantages {
+  padding: 120px;
+}
+.list-benefits {
+  display: flex;
+  gap: 24px;
+}
+.list-advantages {
+  width: calc((100% - 72px) / 4);
+}
 .advantages-name {
   font-weight: 500;
   font-size: 20px;
@@ -176,6 +186,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-advantages {
   font-size: 16px;
@@ -186,6 +197,7 @@ body {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .title-team {
   font-size: 36px;
@@ -195,9 +207,19 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.list-team {
+  display: flex;
+  gap: 24px;
 }
 .item-team {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.name-man {
+  padding: 32px 0;
 }
 .name-workman {
   font-weight: 500;
@@ -206,6 +228,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .position {
   font-size: 16px;
@@ -213,6 +237,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+}
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-portfolio {
   font-size: 36px;
@@ -222,6 +251,21 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
+}
+.program-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .name-portfolio {
   font-weight: 500;
@@ -230,6 +274,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-portfolio {
   font-size: 16px;
@@ -248,6 +293,12 @@ body {
 }
 .additional-information {
   background: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo {
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-studios {
   color: #f4f4fd;
