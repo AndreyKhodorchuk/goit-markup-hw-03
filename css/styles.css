@@ -170,7 +170,7 @@ body {
   overflow: hidden;
 }
 .our-advantages {
-  padding: 120px;
+  padding: 120px 0;
 }
 .list-benefits {
   display: flex;
@@ -262,7 +262,7 @@ body {
 .item-portfolio {
   width: calc((100% - 48px) / 3);
 }
-.program-portfolio {
+.program-pornfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
